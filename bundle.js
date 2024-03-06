@@ -264,7 +264,8 @@
                 className: "controls-container"
             }, React.createElement("div", {
                 className: "control"
-            }, React.createElement("p", null, "Power"), React.createElement("div", {
+            }, React.createElement("p", null, "Power"), 
+                React.createElement("div", {
                 className: "select",
                 onClick: this.powerControl
             }, React.createElement("div", {
@@ -272,7 +273,8 @@
                 style: t
             }))), React.createElement("p", {
                 id: "display"
-            }, this.state.display), React.createElement("div", {
+            }, this.state.display), 
+               React.createElement("div", {
                 className: "volume-slider"
             }, React.createElement("input", {
                 max: "1",
@@ -283,7 +285,8 @@
                 value: this.state.sliderVal
             })), React.createElement("div", {
                 className: "control"
-            }, React.createElement("p", null, "Bank"), React.createElement("div", {
+            }, React.createElement("p", null, "Bank"), 
+               React.createElement("div", {
                 className: "select",
                 onClick: this.selectBank
             }, React.createElement("div", {
